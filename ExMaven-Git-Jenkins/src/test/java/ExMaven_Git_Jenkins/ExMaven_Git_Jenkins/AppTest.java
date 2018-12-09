@@ -50,6 +50,8 @@ public class AppTest {
 			login();
 			driver.quit();
 
+			App ap = new App();
+			ap.printnames();
 		} catch (IOException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();

@@ -6,8 +6,11 @@ package ExMaven_Git_Jenkins.ExMaven_Git_Jenkins;
  */
 public class App 
 {
-    public static void main( String[] args )
-    {
-        System.out.println( "Hello World!" );
-    }
+  
+	public void printnames() {
+		String[] names = {"Thanos","Captain America","Thor","Iron Man"};
+		for(int i =0 ; i<names.length;i++) {
+			System.out.println("Name : "+names[i]);
+		}
+	}
 }
