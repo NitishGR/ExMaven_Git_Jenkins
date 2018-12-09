@@ -7,11 +7,15 @@ package ExMaven_Git_Jenkins.ExMaven_Git_Jenkins;
 public class App 
 {
   
-	public void printnames() {
+	public void printnames() { 
 		// Added few names
 		String[] names = {"Thanos","Captain America","Thor","Iron Man","Ant Man","Black Widow","Hawkeye","Hulk"};
-		for(int i =0 ; i<names.length;i++) {
-			System.out.println("Name : "+names[i]);
+		/*
+		 * Changed to for each loop
+		 */
+		for(String name : names) {
+			System.out.println("Name : "+name);
+			System.out.println("hello "+name+ " , How are you doing?");
 		}
 	}
 }
