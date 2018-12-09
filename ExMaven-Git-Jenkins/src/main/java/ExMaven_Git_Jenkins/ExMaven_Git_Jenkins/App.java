@@ -9,8 +9,12 @@ public class App
   
 	public void printnames() {
 		String[] names = {"Thanos","Captain America","Thor","Iron Man","Ant Man"};
-		for(int i =0 ; i<names.length;i++) {
-			System.out.println("Name : "+names[i]);
+		/*
+		 * Changed to for each loop
+		 */
+		for(String name : names) {
+			System.out.println("Name : "+name);
+			System.out.println("hello "+name+ " , How are you doing?");
 		}
 	}
 }
